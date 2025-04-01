@@ -1,0 +1,89 @@
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --primary-color: #f90;
+  --text-color: #2f281e;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  color: #544837;
+  margin: 0;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  :link, :visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: white;
+    border: none;
+    background: var(--primary-color);
+    padding: 11px 24px;
+    border-radius: 4px;
+  }
+
+  .container {
+    max-width: 1110px;
+    width: 94%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-block: 35px;
+
+  nav {
+    margin-left: auto;
+  }
+
+  ul {
+    display: flex;
+    gap: 27px;
+  }
+
+  .buttons {
+    margin-left: 53px;
+    display: flex;
+    gap: 14px;
+
+    .transparent {
+      background: transparent;
+      border: 1px solid #BCD0E5;
+      color: #173a56;
+      padding-block: 10px;
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  padding-top: 12px;
+
+  .content {
+
+    h2 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 123%;
+      color: var(--text-color);
+    }
+
+    /* Add styles for p element here if needed, or remove this block entirely */
+  }
+}
